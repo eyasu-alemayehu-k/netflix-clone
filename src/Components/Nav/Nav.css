@@ -1,0 +1,32 @@
+img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    padding: 1rem .5em;
+}
+
+.nav__logo,
+.nav__avatar {
+    height: 35px;
+}
+
+.nav__avatar {
+    width: 100px;
+}
+
+.nav__logo {
+    width: 160px;
+}
+
+.nav__bg--black {
+    background: #000;
+}
