@@ -11,72 +11,42 @@ function Footer() {
         <div className="footer__links">
           <ul>
             <li className="footer__link">
-              <a href="/">FAQ</a>
+              <a href="/">Netflix Originals</a>
             </li>
             <li className="footer__link">
-              <a href="/">Help Center</a>
+              <a href="/">Trending</a>
             </li>
             <li className="footer__link">
-              <a href="/">Account</a>
+              <a href="/">Action Movies</a>
             </li>
             <li className="footer__link">
-              <a href="/">Media Center</a>
+              <a href="/">Top Rated</a>
             </li>
             <li className="footer__link">
-              <a href="/">Investor Relations</a>
+              <a href="/">Comedy Movies</a>
             </li>
             <li className="footer__link">
-              <a href="/">Jobs</a>
+              <a href="/">Romance Movies</a>
             </li>
             <li className="footer__link">
-              <a href="/">Netflix Shop</a>
+              <a href="/">Horror Movies</a>
             </li>
             <li className="footer__link">
-              <a href="/">Redeem Gift Cards</a>
-            </li>
-            <li className="footer__link">
-              <a href="/">Buy Gift Cards</a>
-            </li>
-            <li className="footer__link">
-              <a href="/">Ways to Watch</a>
-            </li>
-            <li className="footer__link">
-              <a href="/">Terms of Use</a>
-            </li>
-            <li className="footer__link">
-              <a href="/">Privacy</a>
-            </li>
-            <li className="footer__link">
-              <a href="/">Cookie Preferences</a>
-            </li>
-            <li className="footer__link">
-              <a href="/">Corporate Information</a>
-            </li>
-            <li className="footer__link">
-              <a href="/">Contact Us</a>
-            </li>
-            <li className="footer__link">
-              <a href="/">Speed Test</a>
-            </li>
-            <li className="footer__link">
-              <a href="/">Legal Notices</a>
-            </li>
-            <li className="footer__link">
-              <a href="/">Only on Netflix</a>
-            </li>
-            <li className="footer__link">
-              <a href="/">Do Not Sell or Share My Personal Information</a>
+              <a href="/">Documentaries Movies</a>
             </li>
           </ul>
         </div>
-        <select name="LanguageSelect" id="LanguageSelect" className="footer__select">
+        <select
+          name="LanguageSelect"
+          id="LanguageSelect"
+          className="footer__select"
+        >
           <option value="">English</option>
-          <option value=""></option>
+          <option value="">Amharic</option>
         </select>
       </div>
     </div>
   );
 }
-
 
 export default Footer;
