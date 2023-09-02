@@ -14,7 +14,6 @@
 .banner__title {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 800;
-  /* mix-blend-mode: difference; */
   filter: drop-shadow(0.05em 0.06em rgb(17, 17, 17));
 }
 
@@ -22,6 +21,7 @@
   max-width: clamp(15rem, 40vw, 25rem);
   filter: drop-shadow(0.05em 0.04em rgb(17, 17, 17));
   font-size: clamp(1rem, 2.5vw, 1.1rem);
+   mix-blend-mode: difference;
 }
 
 .banner__button {
